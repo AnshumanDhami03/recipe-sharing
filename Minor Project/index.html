@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Sharing Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>Welcome to Recipe Sharing Platform</h1>
+      <p>Your ultimate destination for delicious recipes, cooking tips, and culinary inspiration!</p>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" id="recipes-btn">Recipes</a></li>
+            <li><a href="#about" id="about-btn">About</a></li>
+            <li><a href="#contact" id="contact-btn">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <main>
+        
+        <h2 id="dropdown-heading" class="dropdown-heading">Show All Recipes &#9660;</h2>
+        <div class="recipe-container" style="display: none;">
+          <h3>Featured Recipes</h3>
+          <div class="featured-recipes">
+            <!-- Featured recipes will be dynamically generated here -->
+          </div>
+          <h3>All Recipes</h3>
+          <div class="recipe-grid">
+          </div>
+          
+            <!-- Add more recipe divs as needed -->
+          </div>
+          <section id="contact" class="contact-section">
+            <!-- Contact section content -->
+            <!--<h2>Contact Us</h2>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>-->
+            <h2>Contact Us</h2>
+            <form action="https://formbold.com/s/3dl55" method="POST">
+              <input type="email" placeholder="Email" name="email">
+              <input type="text" placeholder="Subject" name="subject">
+              <textarea name="message" placeholder="Type your message"></textarea>
+            
+              <!-- your other form fields go here -->
+              <button type="submit">Send Message</button>
+            </form>
+          </section>
+          <section id="about" class="about-section">
+            <div class="container">
+              <h2>About Us</h2>
+              <p>Welcome to Recipe Sharing Platform, your ultimate destination for delicious recipes, cooking tips, and culinary inspiration!</p>
+              <p>At Recipe Sharing Platform, we believe that cooking is more than just preparing meals; it's a journey of creativity, exploration, and sharing. Our team of passionate food enthusiasts is dedicated to providing you with the best recipes, curated collections, and helpful cooking guides to help you create unforgettable dining experiences in your own kitchen.</p>
+              <p>Whether you're a seasoned chef or a novice cook, our goal is to make cooking accessible and enjoyable for everyone. From quick and easy weeknight dinners to impressive gourmet creations, we've got you covered with a wide range of recipes spanning cuisines from around the world.</p>
+              <p>What sets us apart is our commitment to quality, authenticity, and innovation. We strive to bring you recipes that are not only delicious but also reliable, ensuring that every dish you make turns out perfectly every time. Our recipes are carefully tested and tailored to suit various dietary preferences and requirements, so you can find something delicious no matter your taste or lifestyle.</p>
+              <p>But Recipe Sharing Platform is more than just a collection of recipes; it's a community of food lovers coming together to share their love for cooking and eating. Join us on our culinary journey, and let's explore the wonderful world of food together!</p>
+            </div>
+          </section>
+        </div>
+      </main>
+    
+      <footer>
+    <p>&copy; 2024 Recipe Sharing Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  /* Dropdown heading styles */
+  .dropdown-heading {
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Recipe container styles */
+  .recipe-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Featured recipes styles */
+  .featured-recipes {
+    margin-bottom: 20px;
+  }
+  
+  .featured-recipes h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  /* Recipe grid styles */
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .recipe {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .recipe p {
+    margin-bottom: 15px;
+  }
+  
+  
+  /* Button styles */
+  .toggle-details-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .toggle-details-button:hover {
+    background-color: #555;
+  }
+
+  .contact-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contact-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  .about-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
